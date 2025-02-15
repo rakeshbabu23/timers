@@ -80,7 +80,7 @@ This is one way to run your app — you can also build it directly from Android 
 - The history log will only store completed timers.
 
 ### Customizable Alerts
-- Only halfway alerts (50%) are supported.
+- Both halfway alerts (50%) and completed timers alerts are supported.
 
 ### Navigation
 - The application consists of three screens:
