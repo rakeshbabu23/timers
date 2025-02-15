@@ -62,7 +62,7 @@ If everything is set up correctly, you should see your new app running in the An
 
 This is one way to run your app — you can also build it directly from Android Studio or Xcode.
 
-## Assumptions Made During Development
+## Assumptions Considered During Development
 
 ### User Input
 - Users will enter valid data (e.g., numbers for duration, non-empty names).
