@@ -62,3 +62,48 @@ If everything is set up correctly, you should see your new app running in the An
 
 This is one way to run your app — you can also build it directly from Android Studio or Xcode.
 
+## Assumptions Made During Development
+
+### User Input
+- Users will enter valid data (e.g., numbers for duration, non-empty names).
+
+### Timer Accuracy
+- `setInterval` will work accurately without delays.
+
+### Local Storage
+- `AsyncStorage` will always function correctly without errors.
+
+### Progress Bar
+- The progress bar will update smoothly without lag.
+
+### History Log
+- The history log will only store completed timers.
+
+### Customizable Alerts
+- Only halfway alerts (50%) are supported.
+
+### Navigation
+- The application consists of three screens:
+  1. Home
+  2. History
+  3. New Timer
+
+### Third-Party Libraries
+- The following libraries will function as expected:
+  - React Navigation
+  - AsyncStorage
+  - Vector Icons
+
+### UI/UX
+- The interface is intuitive and does not require additional instructions.
+
+### Themes
+- Only a light theme is used.
+
+### Export Timer Data
+- Export functionality is included and allows sharing as a message.
+
+### Permissions
+- No special permissions are required.
+
+
